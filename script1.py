@@ -15,6 +15,7 @@ print(anscombe.head())
     so.Plot(anscombe,
             x='x',
             y='y',
+            color='dataset',
            )
     .add(so.Dot())
     .facet('dataset', wrap=2)
